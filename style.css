@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+body {
+    background-color: rgba(231, 119, 8, 0.619);
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 600px;
+    height: 500px;
+    box-shadow: 2px 4px 10px gray;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
